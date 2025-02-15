@@ -670,7 +670,7 @@ margin-bottom: 25px;
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 472px){
     #header{
         padding: 10px 30px;
     }
@@ -744,6 +744,27 @@ text-align: start;
     #prodetails .single-pro-details{
         width: 100%;
         
+      }
+      /*Contact Page*/
+      #contact-details{
+        flex-direction: column;
+      }
+      #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      #contact-details .map{
+        width: 100%;
+      }
+      #form-details{
+       margin: 10px;
+       padding: 30px 10px;
+       flex-wrap: wrap;
+
+      }
+      #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
       }
 }
 
